@@ -1,0 +1,12 @@
+package model.Map;
+
+import java.io.Serializable;
+
+public class BottomRightIsland extends Barrier implements Serializable{
+
+	public BottomRightIsland(int x, int y, boolean traversed) {
+		super(x, y, traversed);
+		// TODO Auto-generated constructor stub
+	}
+
+}
