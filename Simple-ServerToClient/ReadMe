@@ -1,4 +1,9 @@
 # I completed this program as part1 of a 3part project
+
+The server will start first and then start the client. The client will connect to the server and the connection will remain open
+until the client decides to terminate the connection. During this time anything you type into the client side will be printed out
+on the server side. You can also redirect a file into the client and the server will print this out.
+
 I worked with a partner on this and he was in charge of writing the client while I wrote the server
 It was a good example of having 2 individuals in charge of different aspects of the project and understanding
 how to write the program such that the 2 peieces can be put together without extra work.
