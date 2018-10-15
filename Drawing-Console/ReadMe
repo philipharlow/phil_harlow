@@ -2,4 +2,4 @@ This project utilizes writing directly to the frame buffer of the console.
 This allows for manipulating individual pixels in the frame buffer.
 It was a very interesting project and gave insight into the idea that everything can be treated as a file
 
-We ran this on the qemu-arm console. This allows us to access the frame buffer of the console.
+We ran this on the linux kernal 3.2.27 console. This allows us to access the frame buffer of the console.
