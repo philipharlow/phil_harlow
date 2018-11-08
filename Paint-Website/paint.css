@@ -1,0 +1,60 @@
+
+body {
+	background-color: #222222;
+	font-family: Helvetica, sans-serif;
+	color: white;
+
+}
+h1 {
+	text-align: center;
+	font-size: 36px;
+	letter-spacing: 3px;
+}
+
+#outer-flex {
+	display: flex;
+	margin: 0 auto;
+	width: 800px;
+}
+
+#controls-flex {
+	width: 100px;
+}
+
+#color-picker, #pen-size {
+	margin: 15px;
+}
+
+#canvas {
+	width: 700px;
+	height: 500px;
+}
+
+#color-canvas {
+	width: 100px;
+	height: 100px;
+}
+
+#pen-canvas {
+	width: 50px;
+	height: 50px;
+}
+
+#plus, #minus, #pen-canvas {
+	margin-top: 5px;
+}
+
+#mode-buttons, #pen-size {
+	display: flex;
+	flex-direction: column;
+	margin: 15px;
+}
+
+.mode {
+	margin: 5px;
+	width: 80px;
+}
+
+canvas {
+	background-color: white;
+}
